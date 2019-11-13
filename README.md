@@ -9,6 +9,7 @@ This study uses machine learning algorithms as a research methodology to develop
 
 The approach to solve the problem is not to reduce the dimensionality without having a significant idea. We know that location is crucial for Airbnb listing prices and we didn’t want disregard it. One hot encoding the neighborhood and the other categorical features increased the dimensionality of the problem. To reduce it, we used exploratory data analysis to assess which features are significant and which regression methods to use based on exploratory data set.
 
+![Screenshot](image.png)
 
 # Methodology
 
