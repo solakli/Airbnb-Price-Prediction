@@ -1,7 +1,17 @@
 # Airbnb-Price-Prediction
 Predicting the daily price of an Airbnb listing
 
-This project aims to predict a daily price of an Airbnb listing using a Feature extraction and a Regression pipeline. 
-Airbnb-exp.py file contains codeblock for exploratory data analysis for the 5000 listings to identify the important features for the model to be trained on later.
-feture_extraction.py file contains code to extract important features using Lasso and Ridge regularization. 
-modeltune_final.py contains code for training and testing the rest of the 35000 listings after the important features extracted.
+This study uses machine learning algorithms as a research methodology to develop a listing price prediction model. This study analyses the price predictability capability of different algorithms like linear regression, tree based regressions etc. along with other attributes like sparsity, algorithmic complexity etc. The performance of each model is evaluated using four different metrics, the 𝑅" value, mean squared error, mean absolute error and median absolute error.
+
+
+
+# Approach
+
+The approach to solve the problem is not to reduce the dimensionality without having a significant idea. We know that location is crucial for Airbnb listing prices and we didn’t want disregard it. One hot encoding the neighborhood and the other categorical features increased the dimensionality of the problem. To reduce it, we used exploratory data analysis to assess which features are significant and which regression methods to use based on exploratory data set.
+
+
+# Methodology
+
+Split Dataset -> Exploratory Data Analysis -> Data Preprocessing -> Feature Selection -> Parameter and Model Selection -> Performance Evaluation
+
+
